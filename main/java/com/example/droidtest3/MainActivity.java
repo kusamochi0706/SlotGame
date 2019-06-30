@@ -8,7 +8,7 @@ import android.widget.ImageView;
 
 import java.util.Random;
 
-
+//プッシュの練習
 public class MainActivity extends AppCompatActivity {
 
     @Override
