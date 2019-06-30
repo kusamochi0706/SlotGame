@@ -8,7 +8,7 @@ import android.widget.ImageView;
 
 import java.util.Random;
 
-
+// MsinActivity クラス
 public class MainActivity extends AppCompatActivity {
 
     @Override
