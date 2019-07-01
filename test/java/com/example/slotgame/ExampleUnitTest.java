@@ -1,4 +1,4 @@
-package com.example.droidtest3;
+package com.example.slotgame;
 
 import org.junit.Test;
 

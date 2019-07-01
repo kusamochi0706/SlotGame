@@ -1,4 +1,4 @@
-package com.example.droidtest3;
+package com.example.slotgame;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
