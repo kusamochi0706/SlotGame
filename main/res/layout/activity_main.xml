@@ -4,32 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/droidimageid1"
-        android:layout_width="159dp"
-        android:layout_height="132dp"
-        android:layout_centerInParent="true"
-        android:layout_centerVertical="false"
-        app:srcCompat="@drawable/start1"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="299dp" />
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toLeftOf="@id/droidimageid2"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@drawable/start1" />
 
     <Button
         android:id="@+id/slotbutton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/droidimageid1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="38dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="33dp"
-        android:layout_marginRight="0dp"
-        android:text="スタート"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="469dp" />
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@id/droidimageid1"
+        android:layout_marginTop="250dp"
+        android:text="●" />
+
+
+    <ImageView
+        android:id="@+id/droidimageid2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/start1" />
+
+    <Button
+        android:id="@+id/slotbutton2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@id/droidimageid2"
+        android:layout_marginTop="250dp"
+        android:text="●" />
+
+    <ImageView
+        android:id="@+id/droidimageid3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/droidimageid2"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/start1" />
+
+    <Button
+        android:id="@+id/slotbutton3"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@id/droidimageid3"
+        android:layout_marginTop="250dp"
+        android:text="●" />
+
+
+
+
+
+
+
 
 </RelativeLayout>
