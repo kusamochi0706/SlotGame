@@ -7,10 +7,10 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/droidimageid1"
+        android:id="@+id/slotimageid1"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_toLeftOf="@id/droidimageid2"
+        android:layout_toLeftOf="@id/slotimageid2"
         android:layout_marginTop="100dp"
         android:layout_marginRight="10dp"
         app:srcCompat="@drawable/start1" />
@@ -19,14 +19,14 @@
         android:id="@+id/slotbutton1"
         android:layout_width="100dp"
         android:layout_height="60dp"
-        android:layout_below="@+id/droidimageid1"
-        android:layout_alignLeft="@id/droidimageid1"
+        android:layout_below="@+id/slotimageid1"
+        android:layout_alignLeft="@id/slotimageid1"
         android:layout_marginTop="10dp"
         android:text="●" />
 
 
     <ImageView
-        android:id="@+id/droidimageid2"
+        android:id="@+id/slotimageid2"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignParentTop="true"
@@ -38,16 +38,16 @@
         android:id="@+id/slotbutton2"
         android:layout_width="100dp"
         android:layout_height="60dp"
-        android:layout_below="@+id/droidimageid2"
-        android:layout_alignLeft="@id/droidimageid2"
+        android:layout_below="@+id/slotimageid2"
+        android:layout_alignLeft="@id/slotimageid2"
         android:layout_marginTop="10dp"
         android:text="●" />
 
     <ImageView
-        android:id="@+id/droidimageid3"
+        android:id="@+id/slotimageid3"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_toRightOf="@id/droidimageid2"
+        android:layout_toRightOf="@id/slotimageid2"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="10dp"
         app:srcCompat="@drawable/start1" />
@@ -56,10 +56,10 @@
         android:id="@+id/slotbutton3"
         android:layout_width="100dp"
         android:layout_height="60dp"
-        android:layout_below="@+id/droidimageid3"
-        android:layout_alignLeft="@id/droidimageid3"
+        android:layout_below="@+id/slotimageid3"
+        android:layout_alignLeft="@id/slotimageid3"
         android:layout_marginTop="10dp"
-        android:text="★" />
+        android:text="●" />
 
     <Button
         android:id="@+id/retrybutton"
