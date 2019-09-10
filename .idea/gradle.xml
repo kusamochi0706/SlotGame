@@ -7,9 +7,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
+            <option value="$PROJECT_DIR$/.." />
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/practice/fundamentals/1st/FrameLayoutPractice/Practice1/app" />
-            <option value="$PROJECT_DIR$/practice/fundamentals/1st/FrameLayoutPractice/Practice2/app" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -1,1 +1,2 @@
-include ':app'
+include ':DroidTest3'
+project(':DroidTest3').projectDir = new File('C:/Users/USER/AndroidStudioProjects')
